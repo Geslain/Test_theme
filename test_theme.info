@@ -1,0 +1,17 @@
+name = Test theme
+description = A custom template.
+core = 7.x
+
+stylesheets[all][] = CSS/bootstrap.css
+stylesheets[all][] = CSS/style.css
+
+regions[top_right_sidebar] = Top right sidebar
+regions[bottom_right_sidebar] = Bottom right sidebar
+regions[content] = Content
+regions[left_sidebar] = Left sidebar
+regions[footer] = Footer
+
+scripts[] = JS/jquery.js
+scripts[] = JS/jquery-ui.js
+scripts[] = JS/script.js
+
